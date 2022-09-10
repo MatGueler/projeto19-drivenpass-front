@@ -11,7 +11,9 @@ export const Main = styled.div`
   p {
     width: 100%;
     text-align: center;
-    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px 0;
   }
 `;
 
@@ -22,7 +24,7 @@ export const Logo = styled.div`
     height: 160px;
   }
   h2 {
-    font-family: "Recursive";
+    font-family: "Righteous", cursive;
     font-weight: 400;
     font-size: 36px;
     color: #0a5286;
@@ -34,9 +36,7 @@ export const Form = styled.form`
   margin: 30px 0;
   padding-bottom: 30px;
 
-  /* p {
-    font-family: "Recursive";
-    font-weight: 400;
+  p {
     width: 100%;
-  } */
+  }
 `;

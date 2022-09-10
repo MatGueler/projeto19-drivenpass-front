@@ -6,6 +6,7 @@ export const Button = styled.button`
   border: 0;
   border-radius: 5px;
   margin-bottom: 20px;
+  font-size: 18px;
   box-sizing: border-box;
   background-color: ${(props) => props.color};
 `;
